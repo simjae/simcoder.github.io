@@ -1,2 +1,191 @@
-<h1>눈뜨면 빡코딩!</h1>
-asdasdasd
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="flex items-start justify-around h-12 pt-3">
+            <ul class="flex gap-3">
+                <li class="pl-10">
+                    <img src="images/logo.png" alt="">
+                </li>
+                <li class="w-32">베스트</li>
+                <li class="w-32">남성</li>
+                <li class="w-32">여성 </li>
+                <li class="w-32">라이프스타일</li>
+                <li class="w-32">콜라보레이션</li>
+            </ul>
+            <ul class="flex gap-3">
+                <li class="w-16">스토리</li>
+                <li class="w-16">매장보기</li>
+                <li class="w-16">검색</li>
+                <li class="w-16">지구</li>
+                <li class="w-16">택</li>
+                <li class="w-16"><img src="images/6554.png" alt=""></li>
+                <li class="w-16">사용자
+                    </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="images/bg.jpeg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/intro.jpeg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/intro1.jpeg" alt="">
+                    </div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-5 divide-x divide-neutral-400 ">
+                <div class="w-32 pt-20 text-right">
+                    for you
+                </div>
+                <div class="relative recommend__prd">
+                    <div class="absolute right-0 p-3">
+                        하트
+                    </div>
+                    <div>
+                        <img src="images/BLASSTB12GN_1.jpeg" alt="">
+                    </div>
+                    <div class="flex justify-between">
+                        <div>tnnn blazer</div>
+                        <div>529.000</div>
+                    </div>
+                    <div>Gray</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <div>컬러칩</div>
+                        </div>
+                        <div class="flex">
+                            <div>A1</div>
+                            <div>A2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative recommend__prd">
+                    <div class="absolute right-0 p-3">
+                        하트
+                    </div>
+                    <div>
+                        <img src="images/BLASSTB12GN_1.jpeg" alt="">
+                    </div>
+                    <div class="flex justify-between">
+                        <div>tnnn blazer</div>
+                        <div>529.000</div>
+                    </div>
+                    <div>Gray</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <div>컬러칩</div>
+                        </div>
+                        <div class="flex">
+                            <div>A1</div>
+                            <div>A2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative recommend__prd">
+                    <div class="absolute right-0 p-3">
+                        하트
+                    </div>
+                    <div>
+                        <img src="images/BLASSTB12GN_1.jpeg" alt="">
+                    </div>
+                    <div class="flex justify-between">
+                        <div>tnnn blazer</div>
+                        <div>529.000</div>
+                    </div>
+                    <div>Gray</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <div>컬러칩</div>
+                        </div>
+                        <div class="flex">
+                            <div>A1</div>
+                            <div>A2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative recommend__prd">
+                    <div class="absolute right-0 p-3">
+                        하트
+                    </div>
+                    <div>
+                        <img src="images/BLASSTB12GN_1.jpeg" alt="">
+                    </div>
+                    <div class="flex justify-between">
+                        <div>tnnn blazer</div>
+                        <div>529.000</div>
+                    </div>
+                    <div>Gray</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <div>컬러칩</div>
+                        </div>
+                        <div class="flex">
+                            <div>A1</div>
+                            <div>A2</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="flex exhibtion ">
+                <div></div>
+                <div>
+                    <img src="images/pc.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="exhibtion__prd"></div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+</body>
+<script>
+    var swiper = new Swiper(".swiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+</script>
+</html>
